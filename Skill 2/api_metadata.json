@@ -1,0 +1,35 @@
+[
+    {
+        "user_id": "101",
+        "email": "jane.doe@example.com",
+        "location": "New York",
+        "tier": "premium",
+        "features": [
+            0.5,
+            0.2,
+            0.9
+        ]
+    },
+    {
+        "user_id": "102",
+        "email": "john.smith@example.com",
+        "location": "London",
+        "tier": "free",
+        "features": [
+            0.1,
+            0.4,
+            0.3
+        ]
+    },
+    {
+        "user_id": "103",
+        "email": "sam.wilson@example.com",
+        "location": "Berlin",
+        "tier": "premium",
+        "features": [
+            0.8,
+            0.8,
+            0.7
+        ]
+    }
+]

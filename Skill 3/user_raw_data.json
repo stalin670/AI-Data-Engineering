@@ -1,0 +1,16 @@
+[
+  {
+    "user_id": 101,
+    "monthly_usage": 35,
+    "complaints": 4,
+    "tenure": 3,
+    "churned" : 1
+  },
+  {
+    "user_id": 102,
+    "monthly_usage": 38,
+    "complaints": 7,
+    "tenure": 2,
+    "churned" : 0
+  }
+]

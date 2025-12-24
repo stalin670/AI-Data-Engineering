@@ -1,0 +1,6 @@
+user_id,timestamp,action,session_id
+101,23-12-2025 08:30,login,abc-123
+102,23-12-2025 08:35,view_page,def-456
+101,23-12-2025 08:40,purchase,abc-123
+103,23-12-2025 09:10,logout,ghi-789
+102,23-12-2025 09:12,login,def-456
