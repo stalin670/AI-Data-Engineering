@@ -1,0 +1,63 @@
+{
+    "dataset_profile": {
+        "rows": 7,
+        "columns": 6,
+        "null_counts": {
+            "customer_id": 0,
+            "name": 1,
+            "email": 0,
+            "age": 1,
+            "country": 0,
+            "salary": 1
+        },
+        "unique_counts": {
+            "customer_id": 7,
+            "name": 5,
+            "email": 6,
+            "age": 5,
+            "country": 3,
+            "salary": 5
+        },
+        "dtypes": {
+            "customer_id": "int64",
+            "name": "object",
+            "email": "object",
+            "age": "float64",
+            "country": "object",
+            "salary": "float64"
+        }
+    },
+    "dq_rule_results": [
+        {
+            "rule": "Primary Key Check",
+            "failed_rows": 0,
+            "status": "PASS"
+        },
+        {
+            "rule": "Age Not Null",
+            "failed_rows": 1,
+            "status": "FAIL"
+        },
+        {
+            "rule": "Valid Age Range",
+            "failed_rows": 2,
+            "status": "FAIL"
+        },
+        {
+            "rule": "Email Format Check",
+            "failed_rows": 1,
+            "status": "FAIL"
+        },
+        {
+            "rule": "Salary Not Null",
+            "failed_rows": 1,
+            "status": "FAIL"
+        },
+        {
+            "rule": "Remove Duplicates",
+            "failed_rows": 0,
+            "status": "PASS"
+        }
+    ],
+    "anomaly_count": 1
+}

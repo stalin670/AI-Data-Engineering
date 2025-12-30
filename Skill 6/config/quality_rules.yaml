@@ -1,0 +1,28 @@
+rules:
+
+  - name: Primary Key Check
+    column: customer_id
+    type: unique
+
+  - name: Age Not Null
+    column: age
+    type: not_null
+
+  - name: Valid Age Range
+    column: age
+    type: range
+    min: 18
+    max: 120
+
+  - name: Email Format Check
+    column: email
+    type: regex
+    pattern: "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+
+  - name: Salary Not Null
+    column: salary
+    type: not_null
+
+  - name: Remove Duplicates
+    column: customer_id
+    type: duplicate

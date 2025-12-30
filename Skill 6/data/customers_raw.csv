@@ -1,0 +1,8 @@
+customer_id,name,email,age,country,salary
+1,Rahul,rahul@gmail.com,24,India,50000
+2,,john123@gmail.com,19,USA,45000
+3,Neha,neha@gmail.com,,India,70000
+4,Amit,amit@yahoo.com,17,India,100000
+5,John,john@gmail,25,UK,
+6,Riya,Riya@gmail.com,200,India,90000
+7,Rahul,rahul@gmail.com,24,India,50000
