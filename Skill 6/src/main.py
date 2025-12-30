@@ -1,3 +1,11 @@
+'''
+Data Source  →  Ingestion  →  Profiling  →  Quality Rules  →  AI Detection
+                                           ↓
+                                       Governance Log
+                                           ↓
+                                      Quality Report
+
+'''
 import yaml
 from ingestion import load_data
 from profiling import profile_data
