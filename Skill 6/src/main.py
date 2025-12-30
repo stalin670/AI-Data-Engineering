@@ -1,4 +1,5 @@
 '''
+Conceptual View
 Data Source  →  Ingestion  →  Profiling  →  Quality Rules  →  AI Detection
                                            ↓
                                        Governance Log
